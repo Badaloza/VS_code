@@ -4,7 +4,7 @@ import handmodule as htm
 import time
 import pyautogui
 
-####################################
+#################################### hiiii
 # wCam, hCam = pyautogui.size() # For full screen webCam
 wCam, hCam = 640, 480
 p1, p2 = int((wCam/640)*400), int((hCam/480)*100)
