@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul  2 19:27:48 2021
-
-@author: Badal Oza
-"""
-
 import cv2
 import mediapipe as mp
 import time
@@ -21,7 +14,6 @@ Finger location id
 17, 18, 19, 20 = little
 
 """
-
 
 class handDetector():
     def __init__(self, mode=False, maxHands=2, detectionCon=0.5, trackCon=0.5):
